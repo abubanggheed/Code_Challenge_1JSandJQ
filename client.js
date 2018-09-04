@@ -4,6 +4,10 @@ $(document).ready(onReady);
 let timesClicked = 0;
 
 function onReady(){
-    console.log('ready');
+    $('#generateBtn').on('click', handleGenerateBtn);
     
+}
+
+function handleGenerateBtn(){
+    $('body').append('<div></div>');
 }
