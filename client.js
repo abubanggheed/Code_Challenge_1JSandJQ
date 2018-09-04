@@ -9,5 +9,11 @@ function onReady(){
 }
 
 function handleGenerateBtn(){
-    $('body').append('<div></div>');
+    timesClicked++;
+    let divString = `
+    <div class="button">
+        <p>${timesClicked}</p>
+    </div>
+    `
+    $('body').append(divString);
 }
