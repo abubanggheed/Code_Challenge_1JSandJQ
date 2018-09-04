@@ -13,6 +13,8 @@ function handleGenerateBtn(){
     let divString = `
     <div class="button">
         <p>${timesClicked}</p>
+        <button class="swapBtn">Swap</button>
+        <button class="deleteBtn">Delete</button>
     </div>
     `
     $('body').append(divString);
