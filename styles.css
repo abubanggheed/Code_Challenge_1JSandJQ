@@ -3,3 +3,11 @@
     color: white;
     margin: 1em;
 }
+
+#cardHolder{
+    flex-wrap: wrap;
+}
+
+#top{
+    margin: 1em;
+}

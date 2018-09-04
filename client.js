@@ -13,7 +13,7 @@ function onReady(){
 function handleGenerateBtn(){
     timesClicked++;
     let divString = `
-    <div class="card col-6">
+    <div class="card col-3">
         <p>${timesClicked}</p>
         <button class="swapBtn">Swap</button>
         <button class="deleteBtn">Delete</button>
