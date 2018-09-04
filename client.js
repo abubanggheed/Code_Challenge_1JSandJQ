@@ -6,6 +6,7 @@ let timesClicked = 0;
 function onReady(){
     $('#generateBtn').on('click', handleGenerateBtn);
     $('#cardHolder').on('click', '.swapBtn', handleSwapBtn);
+    $('#cardHolder').on('click', '.deleteBtn', handleDeleteBtn);
     
 }
 
@@ -29,7 +30,9 @@ function handleSwapBtn(){
     } else{
         $(this).parent().css('background-color', 'red');
         $(this).parent().css('color', 'white');
-    }
-    
-    
+    }    
+}
+
+function handleDeleteBtn(){
+    $(this).parent().remove();
 }
